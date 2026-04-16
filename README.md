@@ -232,6 +232,6 @@ docker compose logs -f postgres
 
 ## Authors
 
-- Kabilesh P
-- Kamalesh S P
-- Kasilingam M
+- [Kabilesh P](https://github.com/KabileshP)
+- [Kamalesh S P](https://github.com/Kamalesh-Suresh-Kumar)
+- [Kasilingam M](https://github.com/lingaa005)
