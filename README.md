@@ -54,11 +54,23 @@
 ```
 forgegit-lingaa/
 │
-├── docker-compose.yml      # Main orchestration file for all services
+├── docker-compose.yml        # Main orchestration file for all services
+├── README.md                 # Project documentation (updated)
 │
-└── gitea/
-    ├── app.ini             # Gitea application configuration (pre-configured)
-    └── custom/             # (Optional) Custom themes, templates, and assets
+├── gitea/
+│   └── app.ini               # Gitea application configuration (pre-configured)
+│
+└── Record/                   # Stores generated reports and assets
+    ├── 133_github_qr.png
+    ├── 138_github_qr.png
+    ├── 145_github_qr.png
+    ├── 230701133 - Cloud Computing Lab Manual.docx
+    ├── 230701133 - Cloud Computing Lab Manual.pdf
+    ├── 230701138 - Cloud Computing Lab Manual.docx
+    ├── 230701138 - Cloud Computing Lab Manual.pdf
+    ├── 230701145 - Cloud Computing Lab Manual.docx
+    ├── 230701145 - Cloud Computing Lab Manual.pdf
+    └── cc_QR.py              # Script for QR generation
 ```
 
 ---
@@ -79,7 +91,7 @@ Make sure the following are installed on your machine:
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url> forgegit-lingaa
+git clone https://github.com/lingaa005/forgegit-lingaa.git
 cd forgegit-lingaa
 ```
 
