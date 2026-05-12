@@ -55,7 +55,13 @@
 forgegit-lingaa/
 │
 ├── docker-compose.yml        # Main orchestration file for all services
-├── README.md                 # Project documentation (updated)
+├── README.md                 # Project documentation
+│
+├── Presentation & Report/    # Reports
+│   ├── Archtechture Diagram.png
+│   ├── Forgegit_Presentation.pptx
+│   ├── Forgegit_Project_Report.docx
+│   └── Forgegit_Project_Report.pdf
 │
 ├── gitea/
 │   └── app.ini               # Gitea application configuration (pre-configured)
